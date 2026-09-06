@@ -1,0 +1,63 @@
+# Dependencies for the PM Knowledge Graph notebooks.
+#
+# VERSIONS ARE UNPINNED AND UNVERIFIED. The notebooks were authored and executed
+# on Kaggle's managed Python image, which supplies its own resolved versions; no
+# lockfile or environment export was ever produced for this project. Treat this
+# file as the verified *set* of packages (derived from the actual import
+# statements in notebooks/01-05), not as a reproducible environment.
+#
+# Known conflict: notebooks/03 contains a cell that installs
+# `transformers==4.12.0` and then immediately reinstalls `transformers`
+# unpinned. The last install wins, so 03 effectively ran on a recent
+# transformers release. Do not add the 4.12.0 pin here without re-testing.
+#
+# torch / torch-geometric / pykeen are GPU-oriented. Install torch first,
+# matched to your CUDA version, per https://pytorch.org/get-started/locally/
+
+# --- Core data & graph ---
+pandas
+numpy
+networkx
+scikit-learn
+
+# --- PDF extraction (all three are used; 01 uses PyPDF2, 03 uses pdfplumber + PyMuPDF) ---
+PyPDF2
+pdfplumber
+PyMuPDF
+
+# --- NLP ---
+spacy            # requires: python -m spacy download en_core_web_sm
+nltk             # requires: stopwords, punkt, wordnet, averaged_perceptron_tagger
+stanza
+textacy
+rake-nltk
+pyspellchecker
+autocorrect
+fuzzywuzzy
+rouge
+rouge-score
+
+# --- Transformers & embeddings ---
+transformers
+sentence-transformers
+gensim
+node2vec
+
+# --- Semantic web / ontology ---
+rdflib
+owlready2
+
+# --- Deep learning on graphs ---
+torch
+torch-geometric
+pykeen
+
+# --- Visualisation ---
+matplotlib
+plotly
+wordcloud
+
+# --- Utilities ---
+tqdm
+joblib
+jupyterlab

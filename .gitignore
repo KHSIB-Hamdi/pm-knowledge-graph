@@ -1,0 +1,58 @@
+# ---- Corpus (third-party PMI publications; NOT redistributed) ----
+# See data/corpus/README.md for how to obtain these.
+data/corpus/*.pdf
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Model / training artifacts produced by the notebooks ----
+*.pth
+*.pt
+*.model
+*.model.*
+*.graphml
+*.owl
+node2vec.model*
+fine-tuned-gpt2/
+fine_tuned_model.pt
+output.txt
+
+# ---- NLP / ML caches ----
+.cache/
+nltk_data/
+stanza_resources/
+.huggingface/
+wandb/
+
+# ---- IDE / editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# ---- Logs & temp ----
+*.log
+tmp/
+temp/

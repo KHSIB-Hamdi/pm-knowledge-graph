@@ -1,0 +1,15 @@
+# Normalise line endings for text files; keep notebooks LF so diffs stay clean
+* text=auto eol=lf
+
+*.ipynb text eol=lf diff=jupyternotebook
+*.md    text eol=lf
+*.txt   text eol=lf
+
+# Binary assets
+*.pdf  binary
+*.pptx binary
+*.png  binary
+*.owl  binary
+*.pth  binary
+*.pt   binary
+*.model binary
