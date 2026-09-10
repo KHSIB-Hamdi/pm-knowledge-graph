@@ -1,5 +1,25 @@
 # PM Knowledge Graph — Ontology & Recommendation over PMI Standards
 
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white">
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=flat-square&amp;logo=numpy&amp;logoColor=white">
+  <img alt="NetworkX" src="https://img.shields.io/badge/NetworkX-2C5BB4?style=flat-square">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white">
+  <img alt="spaCy" src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&amp;logo=spacy&amp;logoColor=white">
+  <img alt="NLTK" src="https://img.shields.io/badge/NLTK-154F5B?style=flat-square">
+  <img alt="Transformers" src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black">
+  <img alt="Sentence-Transformers" src="https://img.shields.io/badge/Sentence--Transformers-0A9EDC?style=flat-square">
+  <img alt="Gensim" src="https://img.shields.io/badge/Gensim-3776AB?style=flat-square">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white">
+  <img alt="PyTorch Geometric" src="https://img.shields.io/badge/PyG-3C2179?style=flat-square">
+  <img alt="PyKEEN" src="https://img.shields.io/badge/PyKEEN-6A1B9A?style=flat-square">
+  <img alt="RDFLib" src="https://img.shields.io/badge/RDFLib-0C4B33?style=flat-square">
+  <img alt="Owlready2" src="https://img.shields.io/badge/Owlready2-5D4037?style=flat-square">
+  <img alt="Plotly" src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&amp;logo=plotly&amp;logoColor=white">
+  <img alt="JupyterLab" src="https://img.shields.io/badge/JupyterLab-F37626?style=flat-square&amp;logo=jupyter&amp;logoColor=white">
+</p>
+
 Research code that turns PMI's project-management standards from human-readable
 PDFs into a machine-interpretable **knowledge graph and OWL ontology**, then
 learns graph embeddings over it to drive a concept recommendation engine for
